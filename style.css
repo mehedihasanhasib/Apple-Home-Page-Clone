@@ -1,0 +1,992 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100vw;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+li {
+    list-style: none;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* css for desktop version */
+
+@media screen and (min-width: 733px) {
+
+    #mobile_header,
+    .dropdown {
+        display: none;
+    }
+
+    #desktop_header {
+        width: 100%;
+        height: 6vh;
+        overflow: hidden;
+        background-color: rgb(31, 28, 28);
+        backdrop-filter: blur(200px);
+        position: fixed;
+        top: 0px;
+        transition: .5s;
+        z-index: 1;
+
+
+    }
+
+    #navbar {
+        background-color: rgb(31, 28, 28);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 73%;
+        height: 6vh;
+        margin: auto;
+    }
+
+    #logo {
+        margin-top: -1px;
+    }
+
+    #navbar a {
+        text-decoration: none;
+        color: #f5f5f7;
+        font-size: .75rem;
+        letter-spacing: .007em;
+        font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    }
+
+    #dropdown_menu_desktop {
+        background-color: rgb(31, 28, 28);
+        display: flex;
+        gap: 50px;
+
+    }
+
+    .sub_div {
+        background-color: rgb(31, 28, 28);
+        display: inline-block;
+        position: relative;
+        top: 0px;
+        left: 182px;
+        visibility: visible;
+    }
+
+    #shop,
+    #quick_links,
+    #shop_special_stores,
+    #explore_mac,
+    #shop_mac,
+    #more_from_mac,
+    #explore_ipad,
+    #shop_ipad,
+    #more_from_ipad,
+    #explore_iphone,
+    #shop_iphone,
+    #more_from_iphone,
+    #explore_watch,
+    #shop_watch,
+    #more_from_watch,
+    #explore_airpods,
+    #shop_airpods,
+    #more_from_airpods,
+    #explore_tvhome,
+    #shop_tvhome,
+    #more_from_tvhome,
+    #explore_entertainment,
+    #support,
+    #shop_accessories,
+    #explore_accessories,
+    #explore_support,
+    #get_help,
+    #helpful_topics {
+        display: none;
+    }
+
+
+    .dropdown_content_heading {
+        color: rgba(134, 134, 139, 1);
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 42px;
+        margin-bottom: 15px;
+        margin-left: 0px;
+
+        transition: 0.5s;
+    }
+
+    .sub_div_first_column {
+        text-decoration: none;
+        line-height: 1.6;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        color: #e8e8ed;
+    }
+
+
+    .dropdown_content {
+        text-decoration: none;
+        color: #e8e8ed;
+        line-height: 1.6;
+        font-size: 12px;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+    }
+
+
+
+    /* section 1 starts here*/
+
+    .section_1 {
+        background-image: url(./img/image_1_desktop.jpg);
+        position: relative;
+        background-size: cover;
+        background-position: top center;
+        width: 100%;
+        height: 574px;
+        text-align: center;
+        padding-top: 3rem;
+        top: 6vh;
+    }
+
+    .section_1 h2 {
+        color: #f5f5f7;
+        font-size: 56px;
+        line-height: 1.07143;
+        font-weight: 600;
+        letter-spacing: -.005em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .section_1 h3 {
+        color: #f5f5f7;
+        font-size: 28px;
+        line-height: 1.10722;
+        font-weight: 400;
+        letter-spacing: .004em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        margin-top: 6px;
+
+    }
+
+    .ctn_links {
+        margin-top: 8px;
+    }
+
+    .ctn_links a {
+        color: rgb(41, 151, 255);
+        text-decoration: none;
+        font-size: 21px;
+        line-height: 1.381;
+        font-weight: 400;
+        letter-spacing: .011em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        padding: 0px 13px;
+    }
+
+
+    /* section 2 starts here */
+
+    .section_2 {
+        background-image: url(./img/image_2_desktop.jpg);
+        position: relative;
+        background-size: cover;
+        background-position: top center;
+        width: 100%;
+        height: 574px;
+        text-align: center;
+        padding-top: 3rem;
+        top: 30px;
+    }
+
+    .section_2 h2 {
+        color: #000000;
+        font-size: 56px;
+        line-height: 1.07143;
+        font-weight: 600;
+        letter-spacing: -.005em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .section_2 h3 {
+        color: #000000;
+        font-size: 28px;
+        line-height: 1.10722;
+        font-weight: 400;
+        letter-spacing: .004em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        margin-top: 6px;
+
+    }
+
+
+
+    /* section 3 starts here */
+
+    .section_3 {
+        background-image: url(./img/image_3_desktop.jpg);
+        position: relative;
+        background-size: cover;
+        background-position: top center;
+        width: 100%;
+        height: 574px;
+        text-align: center;
+        padding-top: 3rem;
+        top: 40px;
+    }
+
+    .mobile_logo {
+        display: none;
+    }
+
+    .section_3 h3 {
+        color: white;
+        font-size: 28px;
+        line-height: 1.10722;
+        font-weight: 400;
+        letter-spacing: .004em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        margin-top: 12px;
+    }
+
+
+
+
+    /* section 4 & 5 starts here */
+
+    .wrap_section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 13px;
+        position: relative;
+        margin-top: 10px;
+    }
+
+    .section_4 {
+        background-image: url(./img/image_4_desktop.jpg);
+        position: relative;
+        background-size: cover;
+        background-position: top center;
+        width: 100%;
+        height: 574px;
+        text-align: center;
+        padding-top: 3rem;
+        top: 40px;
+    }
+
+    .section_4 h2 {
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: 0em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .section_4 h3 {
+        font-size: 21px;
+        line-height: 1.2381;
+        font-weight: 400;
+        letter-spacing: 0.016em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin-top: 4px;
+    }
+
+    .section_5 {
+        background-image: url(./img/image_5_desktop.jpg);
+        position: relative;
+        background-size: cover;
+        background-position: top center;
+        width: 100%;
+        height: 574px;
+        text-align: center;
+        padding-top: 3rem;
+        top: 40px;
+    }
+
+
+    .section_5 img {
+        padding-top: 340px;
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: 0em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+
+
+
+    .section_5 h5 {
+        font-size: 21px;
+        line-height: 1.2381;
+        font-weight: 400;
+        letter-spacing: 0.016em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin-top: 4px;
+    }
+
+    .section_5 p {
+        font-size: 17px;
+        line-height: 1.23536;
+        font-weight: 400;
+        letter-spacing: -.022em;
+        font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        color: #6e6e73;
+        text-align: center;
+        margin-top: 12px;
+    }
+
+
+
+    /* section 6 starts here */
+
+    .section_6 {
+        background-image: url(./img/image_6_desktop.jpg);
+        position: relative;
+        background-size: cover;
+        background-position: top center;
+        width: 100%;
+        height: 574px;
+        text-align: center;
+        padding-top: 3rem;
+        top: 40px;
+    }
+
+    .section_6 h2 {
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: 0em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .section_6 h3 {
+        font-size: 21px;
+        line-height: 1.2381;
+        font-weight: 400;
+        letter-spacing: 0.016em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin-top: 4px;
+    }
+
+
+    /* section 9 starts here */
+
+    .section_9 {
+        background-image: url(./img/image_9_desktop.jpg);
+        position: relative;
+        background-size: cover;
+        background-position: top center;
+        width: 100%;
+        height: 574px;
+        text-align: center;
+        padding-top: 3rem;
+        top: 40px;
+    }
+
+    .section_9 h2 {
+        color: white;
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: 0em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .section_9 h3 {
+        color: white;
+        font-size: 21px;
+        line-height: 1.2381;
+        font-weight: 400;
+        letter-spacing: 0.016em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin-top: 4px;
+    }
+
+
+    /* section 7 starts here */
+
+
+    .section_7 {
+        background-image: url(./img/image_7_desktop.jpg);
+        position: relative;
+        background-size: cover;
+        background-position: top center;
+        width: 100%;
+        height: 574px;
+        text-align: center;
+        padding-top: 3rem;
+        top: 40px;
+    }
+
+    .section_7 h5 {
+        font-size: 21px;
+        line-height: 1.2381;
+        font-weight: 400;
+        letter-spacing: 0.016em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin-top: 4px;
+    }
+
+
+
+
+
+    /* section 8 starts here */
+
+
+    .section_8 {
+        background-image: url(./img/image_8_desktop.jpg);
+        position: relative;
+        background-size: cover;
+        background-position: top center;
+        width: 100%;
+        height: 574px;
+        text-align: center;
+        padding-top: 3rem;
+        top: 40px;
+    }
+
+    .section_8 h5 {
+        font-size: 21px;
+        line-height: 1.2381;
+        font-weight: 400;
+        letter-spacing: 0.016em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin-top: 4px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css for mobile version */
+
+@media screen and (max-width: 734px) {
+
+    #desktop_header {
+        display: none;
+    }
+
+    .container {
+        z-index: -1;
+    }
+
+    /* navigation bar starts here */
+
+    #mobile_header {
+        position: sticky;
+        top: 0px;
+        height: auto;
+        z-index: 1;
+    }
+
+    #mobile_navbar {
+        position: sticky;
+        width: 100%;
+        height: 6vh;
+        background-color: rgb(29, 27, 27);
+    }
+
+    #menu {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        color: white;
+        cursor: pointer;
+        transition: .5s;
+    }
+
+    #logo {
+        position: absolute;
+        top: 25%;
+        left: 1rem;
+        transition: .6s;
+
+    }
+
+    #search {
+        position: absolute;
+        right: 100px;
+        top: 25%;
+        color: white;
+    }
+
+    #cart {
+        position: absolute;
+        right: 50px;
+        top: 25%;
+        color: white;
+    }
+
+    #menu_closer {
+        display: none;
+        visibility: 0;
+        transition: .5s;
+        position: absolute;
+        right: 10px;
+        color: white;
+        top: 50%;
+    }
+
+    .dropdown {
+        position: fixed;
+        top: 0px;
+        top: 6vh;
+        width: 100%;
+        height: 0vh;
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+        transition: .5s;
+        padding-left: 2.5rem;
+        z-index: 1;
+    }
+
+    #navigation_bar_ul li {
+        list-style: none;
+        font-size: 1.7rem;
+        line-height: 3rem;
+        font-weight: 600;
+        letter-spacing: .007em;
+        font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+    }
+
+    #navigation_bar_ul {
+        margin-top: 1.4rem;
+        visibility: hidden;
+        opacity: 0;
+        transition-duration: .5s;
+        transition: 1.5s;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    #navigation_bar_ul li a {
+        color: white;
+        text-decoration: none;
+        line-height: 30px;
+    }
+
+
+
+    /* section 1 starts here*/
+
+
+    .section_1 {
+        background-image: url('./img/img1_mobile.jpg');
+        width: 100%;
+        height: 548px;
+        background-position: center top;
+        text-align: center;
+        position: relative;
+    }
+
+    .section_1 h2 {
+        color: #f5f5f7;
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .004em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        padding-top: 50px;
+    }
+
+    .section_1 h3 {
+        color: #f5f5f7;
+        font-size: 19px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: 0em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .ctn_links {
+        margin-top: 25px;
+    }
+
+    .ctn_links a {
+        cursor: pointer;
+        color: rgb(41, 151, 255);
+        margin-top: 0px;
+        line-height: 1.23536;
+        font-weight: 400;
+        letter-spacing: -.022em;
+        font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        padding: 0px 13px;
+        text-decoration: none;
+    }
+
+    .ctn_links a:hover {
+        text-decoration: underline;
+    }
+
+
+
+
+    /* section 2 starts here*/
+
+
+
+    .section_2 {
+        background-image: url('./img/image_2_mobile.jpg');
+        width: 100%;
+        height: 548px;
+        background-position: center top;
+        text-align: center;
+        position: relative;
+    }
+
+    .section_2 h2 {
+        color: black;
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .004em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        padding-top: 50px;
+    }
+
+    .section_2 h3 {
+        color: black;
+        font-size: 19px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: 0em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+
+    /* section 3 starts here */
+
+    .section_3 {
+        background-image: url('./img/image_3_mobile.jpg');
+        width: 100%;
+        height: 548px;
+        background-position: center top;
+        text-align: center;
+        position: relative;
+    }
+
+    .mobile_logo {
+        padding-top: 50px;
+    }
+
+    .desktop_logo {
+        display: none;
+    }
+
+    .section_3 h3 {
+        color: white;
+        font-size: 19px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: 0em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+
+
+    /* section 4 starts here */
+
+    .section_4 {
+        background-image: url('./img/image_4_ipad_mobile.jpg');
+        width: 100%;
+        height: 548px;
+        background-position: center top;
+        text-align: center;
+        position: relative;
+    }
+
+    .section_4 h2 {
+        color: black;
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .004em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        padding-top: 50px;
+    }
+
+    .section_4 h3 {
+        color: black;
+        font-size: 19px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: 0em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+
+    /* section 5 starts here */
+
+    .section_5 {
+        background-image: url('./img/image_5_mobile.jpg');
+        width: 100%;
+        height: 548px;
+        background-position: center top;
+        text-align: center;
+        position: relative;
+    }
+
+    .section_5 img {
+        padding-top: 366px;
+    }
+
+    .section_5 h5 {
+        font-size: 19px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: .012em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .section_5 p {
+        margin-top: 13px;
+        font-size: 17px;
+        line-height: 1.23536;
+        font-weight: 400;
+        letter-spacing: -.022em;
+        font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .section_5 h3 {
+        color: black;
+        font-size: 19px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: 0em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+
+
+    /* section 6 starts here */
+
+
+    .section_6 {
+        background-image: url('./img/image_6_mobile.jpg');
+        width: 100%;
+        height: 548px;
+        background-position: center top;
+        text-align: center;
+        position: relative;
+    }
+
+    .section_6 h2 {
+        color: black;
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .004em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        padding-top: 50px;
+    }
+
+    .section_6 h3 {
+        color: black;
+        font-size: 19px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: 0em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+
+
+
+    /* section 7 starts here */
+
+    .section_7 {
+        background-image: url('./img/image_7_mobile.jpg');
+        width: 100%;
+        height: 548px;
+        background-position: center top;
+        text-align: center;
+        position: relative;
+    }
+
+    .section_7 img {
+        padding-top: 50px;
+    }
+
+    .section_7 h5 {
+        padding-top: 5px;
+        font-size: 19px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: .012em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+
+
+
+    /* section 8 starts here */
+
+
+    .section_8 {
+        background-image: url('./img/image_8_mobile.jpg');
+        width: 100%;
+        height: 548px;
+        background-position: center top;
+        text-align: center;
+        position: relative;
+    }
+
+    .section_8 img {
+        padding-top: 50px;
+    }
+
+    .section_8 h5 {
+        padding-top: 5px;
+        font-size: 19px;
+        line-height: 1.21053;
+        font-weight: 400;
+        letter-spacing: .012em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+
+
+    /* container 2 starts here */
+}
+
+
+
+
+
+
+
+/* footer starts here */
+
+footer {
+    position: relative;
+    top: 52px;
+    width: 100%;
+    background-color: #f5f5f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div {
+    width: 75%;
+    padding-top: 20px;
+}
+
+#footer_text p {
+    padding: 6px 0px;
+    color: #6e6e73;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+
+
+
+
+.footer_links {
+    height: 35.188rem;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    overflow: hidden;
+}
+
+.bottom_links_container ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+}
+
+.bottom_links_container ul a {
+    margin-top: 5px;
+}
+
+.bottom_links_heading {
+    font-size: 13px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    margin-top: 19px;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.bottom_links {
+    text-decoration: none;
+    padding: 6px 0px;
+    color: #6e6e73;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.last_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.last_section ul a {
+    text-decoration: none;
+    padding: 6px 0px;
+    color: #6e6e73;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.last_section a {
+    text-decoration: none;
+    padding: 6px 0px;
+    color: #6e6e73;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.last_section p {
+    color: #6e6e73;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
